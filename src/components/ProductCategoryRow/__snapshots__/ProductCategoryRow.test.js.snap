@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCategoryRow should render the category of products 1`] = `
+<tr>
+  <th>
+    Sporting Goods
+  </th>
+</tr>
+`;
