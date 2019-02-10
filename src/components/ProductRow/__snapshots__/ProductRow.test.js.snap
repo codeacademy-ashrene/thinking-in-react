@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductRow should render the product row 1`] = `
+<tr>
+  <td>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      Football
+    </span>
+  </td>
+  <td>
+    3.99
+  </td>
+</tr>
+`;
