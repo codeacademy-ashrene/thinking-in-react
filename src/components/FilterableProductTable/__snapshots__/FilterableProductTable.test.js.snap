@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterableProductTable renders without crashing for stocked and unstocked products and no filter text 1`] = `
+<div>
+  <form>
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <input
+      checked={false}
+      className="checkBox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+     
+    Only show products in stock
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>
+          Sporting Goods
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Football
+          </span>
+        </td>
+        <td>
+          $49.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Baseball
+          </span>
+        </td>
+        <td>
+          $9.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          >
+            Basketball
+          </span>
+        </td>
+        <td>
+          $29.99
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Electronics
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            iPod Touch
+          </span>
+        </td>
+        <td>
+          $99.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          >
+            iPhone 5
+          </span>
+        </td>
+        <td>
+          $399.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Nexus 7
+          </span>
+        </td>
+        <td>
+          $199.99
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
