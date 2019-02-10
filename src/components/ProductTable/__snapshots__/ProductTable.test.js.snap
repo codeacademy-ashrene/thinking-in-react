@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTable should render product table 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>
+        Sporting Goods
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <span
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          Football
+        </span>
+      </td>
+      <td>
+        3.99
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
